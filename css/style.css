@@ -34,10 +34,6 @@ html, body {
 }
 
 .menu .italic {
-    font-weight: bold;
-}
-
-.menu .italic.red {
     font-style: italic;
 }
 
