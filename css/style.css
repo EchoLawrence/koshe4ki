@@ -1,3 +1,23 @@
-.test {
-    color: #000;
+.catalog {
+    text-align: center;
+    font-size: 28pt;
+    color: darkblue;
 }
+.menu {
+    font-size: 22pt;
+    color: darkslateblue;
+    width:20%;
+    float: left;
+    border: 2px dashed cadetblue;
+    background: powderblue;
+}
+.catsphotos {
+    font-size: 20pt;
+    color: #6600CC;
+    width:80%;
+    float: right;
+    border: 2px dotted darkblue;
+    background: powderblue;
+}
+
+
