@@ -4,58 +4,47 @@ html, body {
     margin: 0;
 }
 
-.catalog-wrapper {
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    padding-top: 10px;
     text-align: center;
     font-size: 28pt;
-    height: 7%;
+    background-color: white;
     color: darkblue;
-}
-
-.catalog {
-    padding-top: 10px;
-}
-
-.menu-wrapper {
-    font-size: 22pt;
-    color: darkslateblue;
-    width: 20%;
-    height: 93%;
-    float: left;
+    border-bottom: 2px solid black;
 }
 
 .menu {
+    position: fixed;
+    padding-top: 70px;
+    width: 200px;
     height: 100%;
-    border-right: 2px dashed cadetblue;
+    top: 0;
+    left: 0;
+    font-size: 22pt;
+    color: darkslateblue;
     background: powderblue;
-}
-
-.menu div {
-    margin-bottom: 20px;
-}
-
-.menu .italic {
-    font-style: italic;
-}
-
-.menu .red {
-    color: red;
-}
-
-.cats-photos-wrapper {
-    font-size: 20pt;
-    color: #6600CC;
-    width: 80%;
-    height: 93%;
-    float: left;
-    overflow: hidden;
+    border-right: 2px solid black;
 }
 
 .cats-photos {
     height: 100%;
-    border-top: 2px dotted darkblue;
-    border-right: 2px dotted darkblue;
+    padding: 70px 0 50px 210px;
+    font-size: 20pt;
+    color: #6600CC;
     background: powderblue;
-    overflow: auto;
+}
+
+.cats-photos .post {
+    margin-bottom: 20px;
+}
+
+.cats-photos img {
+    height: 300px;
+    width: auto;
 }
 
 
